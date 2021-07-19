@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 
 import Counter from './Counter';
 
@@ -15,4 +14,4 @@ const Application = () => {
   );
 };
 
-render(<Application />, document.getElementById('root'));
+export default Application;
